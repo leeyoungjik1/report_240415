@@ -1,0 +1,20 @@
+.banner-container{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.sub-container{
+    padding: 1rem;
+    position: relative;
+    box-sizing: border-box;
+}
+.sub-container p{
+    margin: 0;
+}
+.sub-container>div{
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    gap: 1rem;
+}
